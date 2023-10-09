@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Jira Jump",
+  "description": "Jump to Jira tickets with :j {TicketID}",
+  "version": "1.0",
+  "background":{
+      "service_worker": "background.js"
+  },
+  "permissions": [
+      "tabs"
+  ],
+  "omnibox": {
+      "keyword": ":j"
+  }
+}
